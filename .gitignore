@@ -1,0 +1,5 @@
+# Exclude config file
+.vscode/
+
+# Exclude generated file
+simple-server*
