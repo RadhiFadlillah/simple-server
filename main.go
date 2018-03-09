@@ -38,6 +38,6 @@ func main() {
 		},
 	}
 
-	root.Flags().IntP("port", "p", 8080, "Port that used by server")
+	root.Flags().IntP("port", "p", 9000, "Port that used by server")
 	root.Execute()
 }
