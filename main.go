@@ -34,6 +34,7 @@ func main() {
 			// Serve app
 			port, _ := cmd.Flags().GetInt("port")
 			addr := fmt.Sprintf(":%d", port)
+			log.Println("Server running in port", port)
 			log.Fatalln(http.ListenAndServe(addr, router))
 		},
 	}
